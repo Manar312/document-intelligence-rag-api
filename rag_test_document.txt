@@ -1,0 +1,6 @@
+﻿Document Intelligence RAG Test
+
+Retrieval-Augmented Generation combines document retrieval with language models.
+A document processing pipeline extracts text, splits it into chunks, creates embeddings,
+and stores vectors for semantic search.
+This test checks whether the API can upload a text document and process it in the background.
