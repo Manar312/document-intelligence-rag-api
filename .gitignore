@@ -1,0 +1,47 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Local uploads and generated data
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+# Local backups and debugging artifacts
+backups/
+backup_processing_*/
+upload-debug.log
+rag-pdf-test-81b5aef9.pdf
+
+# Backup copies of source files
+*.bak
+*.backup_*
+*.before_*
+
+# Generated local test reports
+scripts/*_report.json
